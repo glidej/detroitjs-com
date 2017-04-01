@@ -10,14 +10,17 @@ export default ({children}) => (
         <title>DetroitJS</title>
         <link rel="stylesheet" href="/static/app.css" />
     </Head>
+    <div className="triangle">
     <header className="section">
+
         <div className="container">
 
                 <h1>Detroit.JS</h1>
                 <h3>A community of JavaScript developers in Detroit</h3>
-
         </div>
+
     </header>
+    </div>
     <Nav />
     {children}
     <Footer />

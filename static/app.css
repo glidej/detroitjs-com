@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! bulma.io v0.3.1 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -4009,12 +4010,19 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+@font-face {
+  font-family: 'neutraface2Text-Bold';
+  src: url("fonts/Neutraface2Text-Bold.eot");
+  src: local("â˜º"), url("fonts/Neutraface2Text-Bold.woff") format("woff"), url("fonts/Neutraface2Text-Bold.ttf") format("truetype"), url("fonts/Neutraface2Text-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 header.section {
-  background-color: #f7df1e;
   background-image: url(spirit.svg);
   background-size: 300px;
   background-repeat: no-repeat;
   background-position: right bottom;
+  background-color: transparent;
   padding-right: 25%;
   padding-bottom: 0px;
   height: 250px; }
@@ -4025,8 +4033,10 @@ header.section {
     align-items: flex-start;
     height: 100%; }
   header.section h1 {
-    font-size: 3em;
+    font-size: 4em;
     display: inline;
+    font-family: neutraface2Text-Bold, sans-serif;
+    font-weight: bold;
     background-color: #f7df1e;
     padding: 3px; }
   header.section h3 {
@@ -4039,6 +4049,10 @@ hr {
   background-color: #0a0a0a;
   height: 2px; }
 
+.triangle {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23111111' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-color: #f7df1e; }
+
 .content a {
   text-decoration: underline; }
 
@@ -4049,3 +4063,31 @@ hr {
 @media screen and (min-width: 769px) {
   .content img {
     max-width: 25%; } }
+
+.yellow {
+  color: #f7df1e;
+  font-family: neutraface2Text-Bold, sans-serif; }
+
+.nav {
+  color: #111;
+  font-size: 1.3em;
+  border: 1px solid #111;
+  background-color: #f7df1e;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23111111' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  justify-content: space-around; }
+
+a.nav-item {
+  background-color: #f7df1e;
+  font-size: 1em;
+  border-top: 3px solid #111;
+  border-bottom: 3px solid #111; }
+
+main.section {
+  background-color: #111111;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); }
+
+.meetup {
+  max-width: 500px;
+  background-color: #f7df1e;
+  margin: 0 auto;
+  padding: 15px; }

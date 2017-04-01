@@ -1,8 +1,7 @@
 import Link from 'next/link'
 
 export default () => (
-<nav className="nav ">
-  <div className="nav-center">
+<nav className="nav">
     <Link href="/">
       <a className="nav-item">
         Home
@@ -20,6 +19,5 @@ export default () => (
     <a className="nav-item" href="https://twitter.com/detroit_js">
       Twitter
     </a>
-  </div>
 </nav>
 )
