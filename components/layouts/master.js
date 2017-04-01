@@ -12,9 +12,10 @@ export default ({children}) => (
     </Head>
     <header className="section">
         <div className="container">
-            <div className="has-text-centered">
-                <img style={{'maxWidth': '10em'}} src="/static/detroit-js-logo.svg" />
-            </div>
+
+                <h1>Detroit.JS</h1>
+                <h3>A community of JavaScript developers in Detroit</h3>
+
         </div>
     </header>
     <Nav />

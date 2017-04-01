@@ -4009,6 +4009,32 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+header.section {
+  background-color: #f7df1e;
+  background-image: url(spirit.svg);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-right: 25%;
+  padding-bottom: 0px;
+  height: 250px; }
+  header.section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%; }
+  header.section h1 {
+    font-size: 3em;
+    display: inline;
+    background-color: #f7df1e;
+    padding: 3px; }
+  header.section h3 {
+    font-size: 1.4em;
+    display: inline;
+    background-color: #f7df1e;
+    padding: 3px; }
+
 hr {
   background-color: #0a0a0a;
   height: 2px; }

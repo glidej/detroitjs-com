@@ -3,6 +3,41 @@ $link: hsl(0, 0%, 21%);
 @import '../../node_modules/bulma/bulma.sass';
 
 $link: $grey-dark;
+$yellow: #f7df1e;
+header.section{
+  background-color:$yellow;
+  background-image:url(spirit.svg);
+  background-size: 300px;
+  background-repeat:no-repeat;
+  background-position:right bottom;
+  padding-right:25%;
+  padding-bottom:0px;
+  height:250px;
+  .container{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:flex-start;
+    height:100%
+  }
+  h1{
+    font-size:3em;
+    //align-self:flex-end;
+    display:inline;
+
+    background-color:$yellow;
+    padding:3px;
+
+  }
+  h3{
+    font-size:1.4em;
+    //align-self:flex-end;
+    display:inline;
+
+    background-color:$yellow;
+    padding:3px;
+  }
+}
 
 hr {
     background-color: $black;
